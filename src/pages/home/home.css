@@ -1,0 +1,44 @@
+.home-container {
+    height: 100vh;
+}
+
+.home-inner-container {
+    display: flex;
+    justify-content: center;
+    height: 85%;
+}
+
+.home-inner-container div {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.home-container-group {
+    text-align: center;
+    margin: 10px;
+}
+
+.developer {
+    border-radius: 8px;
+}
+
+.home-container-group-h4 {
+    color: navy;
+}
+
+.home-bills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-bills-container div {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

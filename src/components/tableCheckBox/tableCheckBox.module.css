@@ -1,0 +1,12 @@
+.customcb{
+  display:flex !important;
+  align-items: center !important;
+}
+.customcb input[type="checkbox"]{
+  display:none;
+}
+.customcb svg{
+  width: 16px;
+  height: 16px;
+  fill: rgb(205, 212, 228);
+}

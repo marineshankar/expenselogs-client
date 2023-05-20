@@ -1,0 +1,39 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    background-color: #fdfdfd;
+}
+
+.loginHeader {
+    text-align: center;
+}
+
+.formContainer {
+    width: 50%;
+    background-color: white;
+    padding: 40px;
+    border: 1px solid #e6e9ef;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.loginError {
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.forgotPassword {
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.register {
+    cursor: pointer;
+}

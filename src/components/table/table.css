@@ -1,0 +1,52 @@
+.userlist-thead {
+  background-color: #f0f2f7;
+  height: 48px;
+  top: 0;
+  position: sticky;
+}
+
+.userlist-table {
+  border-top-left-radius: calc(var(--spacer) * 1px);
+  border-top-right-radius: calc(var(--spacer) * 1px);
+}
+
+.userlist-thead tr {
+  background-color: #f0f2f7;
+}
+
+.userlist-table th {
+  text-align: left;
+  padding-left: 12px;
+}
+
+.userlist-tr-td {
+  background-color: white;
+  padding-left: 8px;
+  cursor: pointer;
+  height: 48px;
+}
+
+.userlist-tr-td:hover {
+  background-color: whitesmoke;
+}
+
+.userlist-td {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  border-bottom: #f0f2f7 solid 1px;
+  font-size: 13px;
+}
+
+.userlist-td-role {
+  border-bottom: #f0f2f7 solid 1px;
+  font-size: 13px;
+}
+
+.userlist-td-icon {
+  padding-left: 9px;
+  border-bottom: #f0f2f7 solid 1px;
+}
+
+.datagrid-th {
+  background-color: #F5F6FA;
+}

@@ -1,0 +1,66 @@
+.th {
+  top: 0;
+  position: sticky;
+  background-color: #f0f2f7;
+  text-align: start;
+  color: lightgray;
+  box-sizing: border-box;
+}
+.container {
+  font-size: smaller;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  width: 100%;
+}
+.popup {
+  background-color: white;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 24%);
+}
+.header {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 0px;
+  caret-color: transparent;
+  padding-left: 10px;
+  background-color: #edf4ff !important;
+  border: none;
+  height: 30px;
+  text-align: left;
+  color: lightgray;
+  cursor: pointer;
+}
+.options {
+  display: block;
+  line-height: 25px;
+  border: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  background-color: white !important;
+}
+.options:hover {
+  background-color: whitesmoke !important;
+}
+.innerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: 8px #f0f2f7 solid;
+}
+.button {
+  padding: 5px;
+  border: 0px;
+  width: 85%;
+  height: 30px;
+  padding-left: 8px;
+  cursor: pointer;
+  background-color: white;
+  text-align: left;
+  color: lightgray;
+}

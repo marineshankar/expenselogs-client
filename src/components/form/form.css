@@ -1,0 +1,113 @@
+/* @media (min-width: 1200px) {
+    .form-container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .form-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .form-container {
+        width: 750px;
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-control {
+    height: 20px;
+    padding: 6px 6px;
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit, .signup {
+    background-color: navy;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.form-group-forgot {
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+} */
+
+label {
+    display: block;
+    padding: 10px 0px;
+    background-color: white;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #e6e9ef;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="date"] {
+    text-indent: 8px;
+}
+
+input[type="submit"] {
+    background-color: navy;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input:focus {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none !important;
+    border: 1px solid black;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #e6e9ef;
+    border-radius: 8px;
+}
+
+textarea:focus {
+    display: block;
+    width: 100%;
+    outline: none !important;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+div span {
+    color: red;
+    font-size: 12px;
+}

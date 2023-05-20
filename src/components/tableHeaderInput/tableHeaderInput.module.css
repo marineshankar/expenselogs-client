@@ -1,0 +1,16 @@
+.container {
+  background-color: #f0f2f7;
+  text-align: start;
+  padding-left: 8px;
+  color: lightgray;
+  box-sizing: border-box;
+}
+.input {
+  border: 0px;
+  width: 95%;
+  height: 30px;
+  padding-left: 8px;
+}
+.input:focus {
+  outline: none;
+}
